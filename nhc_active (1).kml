@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <NetworkLinkControl>
+    <minRefreshPeriod>120</minRefreshPeriod>
+    <expires>Wed Jul 19 14:06:32 UTC 2023</expires>
+  </NetworkLinkControl>
+  <Document id="active">
+    <name>Active Tropical Cyclones</name>
+    <description>
+      <![CDATA[<TABLE>
+      <TR><TD><B>Last Update:</B> Wed Jul 19 12:06:32 UTC 2023</TD></TR>
+      <TR><TD><B>Created By:</B> NOAA/NWS National Hurricane Center</TD></TR>
+      <TR><TD><B>Disclaimer:</B> The NHC Active KML format is an experimental product.</TD></TR>
+      <TR><TD><B>For More Information: </B><a href="https://www.nhc.noaa.gov">https://www.nhc.noaa.gov</a></TD></TR></TABLE>]]>
+    </description>
+    <ScreenOverlay id="activeLegend">
+      <name>Legend</name>
+      <drawOrder>100</drawOrder>
+      <Icon>
+        <href>https://www.nhc.noaa.gov/images/interactive_cone_legend.jpg</href>
+      </Icon>
+      <overlayXY x="0" y="0" xunits="fraction" yunits="fraction" />
+      <screenXY x="0" y="0" xunits="fraction" yunits="fraction" />
+      <rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+      <size x="-1" y="-1" xunits="pixels" yunits="pixels" />
+      <visibility>0</visibility>
+    </ScreenOverlay>
+    <Folder id="wsp">
+      <name>Wind Speed Probabilities (120 hours)</name>
+      <visibility>1</visibility>
+      <open>1</open>
+      <Folder id="wspValues">
+        <name>Values</name>
+        <visibility>1</visibility>
+        <open>1</open>
+        <Style>
+          <ListStyle>
+            <listItemType>radioFolder</listItemType>
+          </ListStyle>
+        </Style>
+        <NetworkLink id="wsp34">
+          <name>Probability of Tropical-Storm-force winds (34-kt)</name>
+          <visibility>1</visibility>
+          <open>0</open>
+          <Link>
+            <href>https://www.nhc.noaa.gov/gis/forecast/archive/2023071906_wsp34knt120hr_5km.kmz</href>
+          </Link>
+        </NetworkLink>
+        <NetworkLink id="wsp50">
+          <name>Probability of 50 knot winds</name>
+          <visibility>0</visibility>
+          <open>0</open>
+          <Link>
+            <href>https://www.nhc.noaa.gov/gis/forecast/archive/2023071906_wsp50knt120hr_5km.kmz</href>
+          </Link>
+        </NetworkLink>
+        <NetworkLink id="wsp64">
+          <name>Probability of Hurricane-force winds (64-kt)</name>
+          <visibility>0</visibility>
+          <open>0</open>
+          <Link>
+            <href>https://www.nhc.noaa.gov/gis/forecast/archive/2023071906_wsp64knt120hr_5km.kmz</href>
+          </Link>
+        </NetworkLink>
+      </Folder>
+    </Folder>
+    <Folder id="at5">
+      <name>Tropical Storm Don</name>
+      <visibility>1</visibility>
+      <open>1</open>
+      <ExtendedData>
+        <Data name="tcType">
+          <value>Tropical Storm</value>
+        </Data>
+        <Data name="tcName">
+          <value>Don</value>
+        </Data>
+        <Data name="wallet">
+          <value>AT5</value>
+        </Data>
+        <Data name="atcfID">
+          <value>AL052023</value>
+        </Data>
+        <Data name="centerLat">
+          <value>34.0</value>
+        </Data>
+        <Data name="centerLon">
+          <value>-39.3</value>
+        </Data>
+        <Data name="dateTime">
+          <value>9:00 AM GMT Wed Jul 19</value>
+        </Data>
+        <Data name="movement">
+          <value>S at 5 mph</value>
+        </Data>
+        <Data name="minimumPressure">
+          <value>1006 mb</value>
+        </Data>
+        <Data name="maxSustainedWind">
+          <value>40 mph</value>
+        </Data>
+        <Data name="headline">
+          <value> ...DON MOVING SLOWLY SOUTHWARD AND EXPECTED TO TURN WESTWARD OVER THE CENTRAL ATLANTIC...</value>
+        </Data>
+      </ExtendedData>
+      <ExtendedData xmlns:tc="https://www.nhc.noaa.gov/cyclones">
+        <tc:type>Tropical Storm</tc:type>
+        <tc:name>Don</tc:name>
+        <tc:wallet>AT5</tc:wallet>
+        <tc:atcfID>AL052023</tc:atcfID>
+        <tc:centerLat>34.0</tc:centerLat>
+        <tc:centerLon>-39.3</tc:centerLon>
+        <tc:dateTime>9:00 AM GMT Wed Jul 19</tc:dateTime>
+        <tc:movement>S at 5 mph</tc:movement>
+        <tc:minimumPressure>1006 mb</tc:minimumPressure>
+        <tc:maxSustainedWind>40 mph</tc:maxSustainedWind>
+        <tc:headline> ...DON MOVING SLOWLY SOUTHWARD AND EXPECTED TO TURN WESTWARD OVER THE CENTRAL ATLANTIC...</tc:headline>
+      </ExtendedData>
+      <NetworkLink id="pasttrack">
+        <name>Past Track</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/gis/best_track/al052023_best_track.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink id="cone">
+        <name>Cone of Uncertainty</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/storm_graphics/api/AL052023_021adv_CONE.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink id="track">
+        <name>Track Forecast</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/storm_graphics/api/AL052023_021adv_TRACK.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink id="initialwindfield">
+        <name>Initial Extent of Winds</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/storm_graphics/api/AL052023_initialradii_021adv.kmz</href>
+        </Link>
+      </NetworkLink>
+    </Folder>
+    <Folder id="cp1">
+      <name>Tropical Storm Calvin</name>
+      <visibility>1</visibility>
+      <open>1</open>
+      <ExtendedData>
+        <Data name="tcType">
+          <value>Tropical Storm</value>
+        </Data>
+        <Data name="tcName">
+          <value>Calvin</value>
+        </Data>
+        <Data name="wallet">
+          <value>CP1</value>
+        </Data>
+        <Data name="atcfID">
+          <value>EP032023</value>
+        </Data>
+        <Data name="centerLat">
+          <value>17.7</value>
+        </Data>
+        <Data name="centerLon">
+          <value>-155.6</value>
+        </Data>
+        <Data name="dateTime">
+          <value>2:00 AM HST Wed Jul 19</value>
+        </Data>
+        <Data name="movement">
+          <value>W at 20 mph</value>
+        </Data>
+        <Data name="minimumPressure">
+          <value>1003 mb</value>
+        </Data>
+        <Data name="maxSustainedWind">
+          <value>50 mph</value>
+        </Data>
+        <Data name="headline">
+          <value> ...TROPICAL STORM CALVIN PASSING SOUTH OF THE BIG ISLAND... ...IMPACTS IN HAWAII COUNTY ARE IMMINENT OR OCCURRING...</value>
+        </Data>
+      </ExtendedData>
+      <ExtendedData xmlns:tc="https://www.nhc.noaa.gov/cyclones">
+        <tc:type>Tropical Storm</tc:type>
+        <tc:name>Calvin</tc:name>
+        <tc:wallet>CP1</tc:wallet>
+        <tc:atcfID>EP032023</tc:atcfID>
+        <tc:centerLat>17.7</tc:centerLat>
+        <tc:centerLon>-155.6</tc:centerLon>
+        <tc:dateTime>2:00 AM HST Wed Jul 19</tc:dateTime>
+        <tc:movement>W at 20 mph</tc:movement>
+        <tc:minimumPressure>1003 mb</tc:minimumPressure>
+        <tc:maxSustainedWind>50 mph</tc:maxSustainedWind>
+        <tc:headline> ...TROPICAL STORM CALVIN PASSING SOUTH OF THE BIG ISLAND... ...IMPACTS IN HAWAII COUNTY ARE IMMINENT OR OCCURRING...</tc:headline>
+      </ExtendedData>
+      <NetworkLink id="pasttrack">
+        <name>Past Track</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/gis/best_track/ep032023_best_track.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink id="cone">
+        <name>Cone of Uncertainty</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/storm_graphics/api/EP032023_031Aadv_CONE.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink id="track">
+        <name>Track Forecast</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/storm_graphics/api/EP032023_031Aadv_TRACK.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink id="initialwindfield">
+        <name>Initial Extent of Winds</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/storm_graphics/api/EP032023_initialradii_031Aadv.kmz</href>
+        </Link>
+      </NetworkLink>
+    </Folder>
+  </Document>
+</kml>
